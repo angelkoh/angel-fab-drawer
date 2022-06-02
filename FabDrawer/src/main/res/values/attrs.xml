@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="FabDrawer">
+        <attr name="isExtended" format="boolean" />
+        <attr name="showVertical" format="boolean" />
+        <attr name="showHorizontal" format="boolean" />
+
+        <attr name="iconTint" format="color" />
+
+<!--        <attr name="iconStyle" format="reference" />-->
+
+        <attr name="horizontalIcons" format="reference" />
+        <attr name="verticalIcons" format="reference" />
+    </declare-styleable>
+
+
+</resources>
