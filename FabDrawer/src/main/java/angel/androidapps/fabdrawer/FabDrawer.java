@@ -249,11 +249,11 @@ public class FabDrawer extends FrameLayout implements
     }
 
     private void hideHorizontal() {
-        mcvHorizontal.setVisibility(View.GONE);
+        mcvHorizontal.setVisibility(View.INVISIBLE);
     }
 
     private void hideVertical() {
-        mcvVertical.setVisibility(View.GONE);
+        mcvVertical.setVisibility(View.INVISIBLE);
     }
 
     private void animateHorizontal() {
@@ -289,11 +289,11 @@ public class FabDrawer extends FrameLayout implements
                 animatorSet.play(move).before(move2).before(alpha);
                 animatorSet.start();
 
-                mcv.postDelayed(() -> mcv.setVisibility(View.GONE), 900);
+                mcv.postDelayed(() -> mcv.setVisibility(View.INVISIBLE), 900);
 
             }
         } else {
-            mcv.setVisibility(View.GONE);
+            mcv.setVisibility(View.INVISIBLE);
         }
     }
 
@@ -327,10 +327,10 @@ public class FabDrawer extends FrameLayout implements
                 animatorSet.play(move).before(move2).before(alpha);
                 animatorSet.start();
 
-                mcv.postDelayed(() -> mcv.setVisibility(View.GONE), 900);
+                mcv.postDelayed(() -> mcv.setVisibility(View.INVISIBLE), 900);
             }
         } else {
-            mcv.setVisibility(View.GONE);
+            mcv.setVisibility(View.INVISIBLE);
         }
     }
 

@@ -15,7 +15,6 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/mcv_horizontal"
-            style="@style/Widget.Material3.CardView.Filled"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -33,7 +32,7 @@
                     android:layout_height="wrap_content"
                     android:padding="8dp"
                     android:src="@drawable/ic_add"
-                    android:visibility="invisible"  />
+                    android:visibility="invisible" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -44,7 +43,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        style="@style/Widget.Material3.CardView.Filled"
         app:layout_constraintBottom_toBottomOf="@id/efab"
         app:layout_constraintEnd_toEndOf="@id/efab"
         app:layout_constraintStart_toStartOf="@id/efab">
@@ -52,7 +50,6 @@
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/mcv_vertical"
             android:layout_width="wrap_content"
-            style="@style/Widget.Material3.CardView.Filled"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             app:cardCornerRadius="16dp">
@@ -69,8 +66,7 @@
                     android:layout_height="wrap_content"
                     android:padding="8dp"
                     android:src="@drawable/ic_add"
-                    android:visibility="invisible"
-          />
+                    android:visibility="invisible" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
